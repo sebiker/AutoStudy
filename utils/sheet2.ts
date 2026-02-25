@@ -19,7 +19,7 @@ function DivideResult(a: number, b: number): number {
 
 export { SumResult, SubtractResult, MultiplyResult, DivideResult };
 
-console.log(SumResult(5, 3)); // Output: 8
-console.log(SubtractResult(5, 3)); // Output: 2
+console.log(SumResult(5, 7)); // Output: 8
+console.log(SubtractResult(5, 7)); // Output: 2
 console.log(MultiplyResult(5, 3)); // Output: 15
-console.log(DivideResult(5, 3)); // Output: 1.6666666666666667
+console.log(DivideResult(5, 0)); // Output: 1.6666666666666667
