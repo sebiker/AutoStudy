@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2018",
-    "module": "amd"
+    "module": "amd",
+    "sourceMap":true
   }
+  "files": [
+    "promises.ts"
+  ]
 }
